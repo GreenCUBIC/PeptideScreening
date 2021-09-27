@@ -1,3 +1,0 @@
-NameError in line 10 of /HDD/fcharih/Projects/PhD/peptide_screening/Snakefile:
-name 'data' is not defined
-  File "/HDD/fcharih/Projects/PhD/peptide_screening/Snakefile", line 10, in <module>

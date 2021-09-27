@@ -1,3 +1,0 @@
-AttributeError in line 29 of /HDD/fcharih/Projects/PhD/peptide_screening/Snakefile:
-invalid name for input, output, wildcard, params or log: remove is reserved for internal use
-  File "/HDD/fcharih/Projects/PhD/peptide_screening/Snakefile", line 29, in <module>
