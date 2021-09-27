@@ -1,0 +1,18 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	download_proteome
+	1
+
+[Fri Apr 16 16:59:11 2021]
+rule download_proteome:
+    output: data/human_proteome.fasta
+    jobid: 0
+
+[Fri Apr 16 17:00:06 2021]
+Finished job 0.
+1 of 1 steps (100%) done
+Complete log: /HDD/fcharih/Projects/PhD/peptide_screening/.snakemake/log/2021-04-16T165911.090179.snakemake.log

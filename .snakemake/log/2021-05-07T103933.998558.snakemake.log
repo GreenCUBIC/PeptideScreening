@@ -1,0 +1,18 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	prepare_dataset
+	1
+
+[Fri May  7 10:39:34 2021]
+rule prepare_dataset:
+    input: data/inputs/clustered_sequences.fasta, data/inputs/conservative_interactions.tsv, data/inputs/endogenous_peptide_equivalents.txt
+    jobid: 0
+
+[Fri May  7 10:39:52 2021]
+Finished job 0.
+1 of 1 steps (100%) done
+Complete log: /HDD/fcharih/Projects/PhD/peptide_screening/.snakemake/log/2021-05-07T103933.998558.snakemake.log

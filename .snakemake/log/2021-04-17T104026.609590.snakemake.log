@@ -1,0 +1,5 @@
+Building DAG of jobs...
+ChildIOException:
+File/directory is a child to another output:
+('/HDD/fcharih/Projects/PhD/peptide_screening/data', split_pairs)
+('/HDD/fcharih/Projects/PhD/peptide_screening/data/clustered_sequences.fasta', cluster_sequences)
